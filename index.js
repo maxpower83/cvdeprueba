@@ -20,11 +20,11 @@ if (window.matchMedia("(min-width: 580px)".matches)) {
     header.className = "small";
 }
 
-// function toggle(){
-//   var element = document.getElementById("barnav");
-//   if(element.style.display === "none"){
-//       element.style.display = "flex";
-//   } else {
-//       element.style.display = "none";
-//   }
-// }
+ function toggle(){
+   var element = document.getElementById("barnav");
+   if(element.style.display === "none"){
+       element.style.display = "flex";
+   } else {
+       element.style.display = "none";
+   }
+}
